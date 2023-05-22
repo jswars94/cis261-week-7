@@ -27,7 +27,7 @@ def GetDatesWorked():
             print()
         else:
             break
-        return fromdate, todate
+      return fromdate, todate
 
 def GetHoursWorked():
     hours = float(input('Enter amount of hours worked: '))
